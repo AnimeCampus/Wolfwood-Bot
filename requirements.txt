@@ -68,7 +68,7 @@ pymongo==3.12.3
 pynewtonmath
 pyOpenSSL==22.1.0
 pyrate-limiter
-pyrogram==2.0.52
+pyrogram==2.0.106
 python-arq
 python-dotenv
 python-rapidjson
