@@ -39,7 +39,7 @@ class Config(object):
     TEMP_DOWNLOAD_DIRECTORY = "./"
     LOAD = ""
     NO_LOAD = ""  # put some module name here if you do not want it to load
-    MONGO_DB = "Himawari"
+    MONGO_DB = "wolfwood"
     BOT_API_URL = "https://api.telegram.org/bot"
 
     # you can change these
@@ -50,9 +50,9 @@ class Config(object):
     API_HASH = "2b445de78e5baf012a0793e60bd4fbf5"  # api hash from my.telegram.org
     # mongo database link (necessary)
     MONGO_DB_URL = "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority"
-    DB_URL = "postgresql://wdsdsw@ldsas/wasassddb"  # postgres sql database link
+    DB_URL = "postgresql://kunalgaikwad932244:tIQq5nmiW7KY@ep-little-wood-723080.ap-southeast-1.aws.neon.tech/neondb"  # postgres sql database link
     # redis database url from redislabs.com
-    REDIS_URL = "redis://dsds3@reddsdsuth-1-1.ec2.cloud.redislabs.com:154dsd/Arssddsdsb"
+    REDIS_URL = "redis://default:neko69@redis-18084.c289.us-west-1-2.ec2.cloud.redislabs.com:18084/Neko-Free-db"
     TOKEN = "5827224610:AAGftR84QtQ6rMr7_r2a7zPPjg1SrG755yA"  # bot token from @BotFather
     DEV_USERS = [6198858059]  # developers id
     SUDO_USERS = [9656]  # sudo users id
@@ -64,9 +64,9 @@ class Config(object):
     BOT_NAME = "wolfwood"  # your bot name
     ARQ_API_KEY = "SLSFXSsdUXNSMH-ARQ"  # ARQ api key from @ARQRobot
     ARQ_API_URL = "arq.hamker.dev"  # arq link
-    SUPPORT_CHAT = "Ignidsn"  # support group username without @
-    UPDATES_CHANNEL = "Igsd"  # Updates/News Channel username without @
-    BOT_USERNAME = "Himawari_Robot"  # bot username without @
+    SUPPORT_CHAT = "MissCamelliaSupport"  # support group username without @
+    UPDATES_CHANNEL = "MissCamelliaUpdate"  # Updates/News Channel username without @
+    BOT_USERNAME = "Wolfwood_xBot"  # bot username without @
     REM_BG_API_KEY = "K2dsdsYma6cZx"  # not necessary
     # spamwatch api token from @SpamWatchBot
     SPAMWATCH_API = "J968E_20LgxrKjsdN24cqYtD~gNRTbU"
