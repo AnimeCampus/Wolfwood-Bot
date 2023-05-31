@@ -37,7 +37,7 @@ class Config(object):
     # dont change
     LOGGER = True
     TEMP_DOWNLOAD_DIRECTORY = "./"
-    LOAD = "ChatBot"
+    LOAD = "Himawari"
     NO_LOAD = ""  # put some module name here if you do not want it to load
     MONGO_DB = "wolfwood"
     BOT_API_URL = "https://api.telegram.org/bot"
