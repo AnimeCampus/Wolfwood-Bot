@@ -105,8 +105,7 @@ if ENV:
     API_ID = os.environ.get("API_ID", None)
     API_HASH = os.environ.get("API_HASH", None)
     DB_URL = os.environ.get("DATABASE_URL")
-    LOAD = os.environ.get("LOAD", "").split()
-    NO_LOAD = os.environ.get("NO_LOAD", "").split()
+    
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", None))
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get(
@@ -163,8 +162,7 @@ else:
     DB_URL = Config.DB_URL
     STRICT_GBAN = Config.STRICT_GBAN
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
-    LOAD = Config.LOAD
-    NO_LOAD = Config.NO_LOAD
+    
     MONGO_DB_URL = Config.MONGO_DB_URL
     MONGO_DB = Config.MONGO_DB
     REDIS_URL = Config.REDIS_URL
