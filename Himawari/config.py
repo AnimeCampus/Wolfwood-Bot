@@ -46,22 +46,22 @@ class Config(object):
     DEL_CMDS = False  # set it to true if you want the "/" commands to be deleted
     INFOPIC = True  # picture while doing /info
     STRICT_GBAN = True  # IF YOU WANT TO ENABLE GBAN SYSTEM
-    API_ID = 681  # api id from my.telegram.org
-    API_HASH = "45aabfacadsdsds"  # api hash from my.telegram.org
+    API_ID = 19099900  # api id from my.telegram.org
+    API_HASH = "2b445de78e5baf012a0793e60bd4fbf5"  # api hash from my.telegram.org
     # mongo database link (necessary)
-    MONGO_DB_URL = "mongodb+srv://mesdsdwhidsdsgodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URL = "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority"
     DB_URL = "postgresql://wdsdsw@ldsas/wasassddb"  # postgres sql database link
     # redis database url from redislabs.com
     REDIS_URL = "redis://dsds3@reddsdsuth-1-1.ec2.cloud.redislabs.com:154dsd/Arssddsdsb"
-    TOKEN = "54dssdV8e59Odo"  # bot token from @BotFather
-    DEV_USERS = [5852955057]  # developers id
+    TOKEN = "5827224610:AAGftR84QtQ6rMr7_r2a7zPPjg1SrG755yA"  # bot token from @BotFather
+    DEV_USERS = [6198858059]  # developers id
     SUDO_USERS = [9656]  # sudo users id
     SUPPORT_USERS = [1909]  # support user ids
     WHITELIST_USERS = [2112, 1212]  # commas for multiple ids
-    EVENT_LOGS = -100159  # channel id for gban logs
-    OWNER_ID = 5852955057  # owner id in integer
-    ERROR_LOGS = -1001  # support group id
-    BOT_NAME = "Himawari"  # your bot name
+    EVENT_LOGS = -1001596651023  # channel id for gban logs
+    OWNER_ID = 6198858059  # owner id in integer
+    ERROR_LOGS = -1001596651023  # support group id
+    BOT_NAME = "wolfwood"  # your bot name
     ARQ_API_KEY = "SLSFXSsdUXNSMH-ARQ"  # ARQ api key from @ARQRobot
     ARQ_API_URL = "arq.hamker.dev"  # arq link
     SUPPORT_CHAT = "Ignidsn"  # support group username without @
